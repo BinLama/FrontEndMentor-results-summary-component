@@ -154,6 +154,16 @@
     cursor: pointer;
 }
 
+.btn a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn a:visited,
+.btn a:active {
+    color: var(--white);
+}
+
 .btn:hover {
     background: rgb(120, 87, 255);
     background: linear-gradient(
