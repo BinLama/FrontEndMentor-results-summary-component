@@ -14,7 +14,7 @@ const Results = () => {
                         <p className="results__score-points_total">of 100</p>
                     </div>
                     <div>
-                        <h3>Great</h3>
+                        <h2>Great</h2>
                         <p className="results__score-summary">
                             You scored higher than 65% of the people who have
                             taken these tests.
@@ -22,7 +22,7 @@ const Results = () => {
                     </div>
                 </article>
                 <article className="results__summary">
-                    <p>Summary</p>
+                    <h1>Summary</h1>
                     <div className="results__summary-categories">
                         {summaryResult.map((result) => {
                             return <Summary key={result.type} {...result} />;
