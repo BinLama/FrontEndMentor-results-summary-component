@@ -8,7 +8,7 @@ const Results = () => {
         <main className="section section__center">
             <section className="results">
                 <article className="results__score gradient__bg">
-                    <p>Your Result</p>
+                    <h1>Your Result</h1>
                     <div className="results__score-points">
                         <NumberIncrementing />
                         <p className="results__score-points_total">of 100</p>
@@ -28,14 +28,12 @@ const Results = () => {
                             return <Summary key={result.type} {...result} />;
                         })}
                     </div>
-                    <button className="btn">
-                        <a
-                            href="https://www.frontendmentor.io/home"
-                            className="btn"
-                        >
-                            Continue
-                        </a>
-                    </button>
+                    <a
+                        className="btn"
+                        href="https://www.frontendmentor.io/home"
+                    >
+                        Continue
+                    </a>
                 </article>
             </section>
         </main>

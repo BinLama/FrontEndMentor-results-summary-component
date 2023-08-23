@@ -152,15 +152,16 @@
     font-weight: 700;
     border-radius: 30px;
     cursor: pointer;
+    text-align: center;
 }
 
-.btn a {
+a {
     background-color: transparent;
     text-decoration: none;
 }
 
-.btn a:visited,
-.btn a:active {
+a:visited,
+a:active {
     color: var(--white);
 }
 
